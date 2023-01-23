@@ -1,0 +1,1212 @@
+Dec  4 08:34:04 [INFO] syslogd started: BusyBox v1.31.1
+Dec  4 08:34:05 [NOTE] CONFIG[859]: Booting with device mode: Router
+Dec  4 08:34:05 [NOTE] d_config_fixup_fw_version[859]: Setting version  -> 2.58.0
+Dec  4 08:34:05 [INFO] fix_factory_wifi_pin[859]: Startup: fixing WPS PIN -> 47750043
+Dec  4 08:34:05 [INFO] fix_factory_wifi[859]: Startup: fixing SSID -> DIR-825
+Dec  4 08:34:05 [INFO] fix_factory_wifi_pin[859]: Startup: fixing WPS PIN -> 47750043
+Dec  4 08:34:05 [INFO] fix_factory_wifi[859]: Startup: fixing SSID -> DIR-825-5G
+Dec  4 08:34:06 [ ERR] d_conf_check_link_path[859]: Invalid link is "dhcp"
+Dec  4 08:34:06 [ ERR] d_conf_check_link_path[859]: Invalid link is "dhcp"
+Dec  4 08:34:06 [INFO] CONFIG[859]: Initing config
+Dec  4 08:34:06 [INFO] d_conf_bin_init[859]: Probing attach to existing shared memory
+Dec  4 08:34:06 [INFO] PERMISSIONS[859]: Initing permissions
+Dec  4 08:34:06 [TRCE] dump[859]: Cannot dump NULL data!
+Dec  4 08:34:06 [ DBG] Deuteron[859]: DMSD / Device RPC server init successful.
+Dec  4 08:34:06 [ DBG] Deuteron[859]: Deuteron started, version 79d7320f3d
+Dec  4 08:34:06 [ DBG] dwatcher[wrkr][860]: Process action: Init
+Dec  4 08:34:06 [ DBG] DynPortMap[861]: could not open lease file: /tmp/miniupnpd/1.lease
+Dec  4 11:34:07 [ DBG] handler_syslog[865]: determine_action: Enable true, set Action = STOP | START.
+Dec  4 11:34:07 [ DBG] handler_syslog[865]: determine_action: Start update requested.
+Dec  4 11:34:07 [ DBG] handler_syslog[865]: determine_action: Status switch Disabled -> Enabling, set Action = START.
+Dec  4 11:34:07 [NOTE] kernel: klogd started: BusyBox v1.31.1 (2020-12-04 11:55:58 MSK)
+Dec  4 11:34:07 [NOTE] kernel: Linux version 3.10.90+ (jenkins@jrdslave2) (gcc version 7.4.0 (crosstool-NG 1.24.0-rc3) ) #1 Fri Dec 4 11:42:39 MSK 2020
+Dec  4 11:34:07 [INFO] kernel: SoC Type: RTL8197FH-VG5
+Dec  4 11:34:07 [INFO] kernel: MIPS: machine is 8197G(PA=0) 8812F(PA=0) 8367R USB NAND RAM=128
+Dec  4 11:34:07 [INFO] kernel: bootconsole [early0] enabled
+Dec  4 11:34:07 [INFO] kernel: CPU revision is: 00019385 (MIPS 24Kc)
+Dec  4 11:34:07 [INFO] kernel: Determined physical RAM map:
+Dec  4 11:34:07 [INFO] kernel:  memory: 08000000 @ 00000000 (usable)
+Dec  4 11:34:07 [WARN] kernel: Zone ranges:
+Dec  4 11:34:07 [WARN] kernel:   Normal   [mem 0x00000000-0x07ffffff]
+Dec  4 11:34:07 [WARN] kernel: Movable zone start for each node
+Dec  4 11:34:07 [WARN] kernel: Early memory node ranges
+Dec  4 11:34:07 [WARN] kernel:   node   0: [mem 0x00000000-0x07ffffff]
+Dec  4 11:34:07 [ DBG] kernel: On node 0 totalpages: 32768
+Dec  4 11:34:07 [ DBG] kernel: free_area_init_node: node 0, pgdat 80796ad0, node_mem_map 8174f000
+Dec  4 11:34:07 [INFO] syslogd started: BusyBox v1.31.1
+Dec  4 11:34:07 [INFO] syslogd exiting
+Dec  4 11:34:07 [WARN] kernel: Primary instruction cache 64kB, VIPT, 4-way, linesize 32 bytes.
+Dec  4 11:34:07 [WARN] kernel: Primary data cache 32kB, 4-way, PIPT, no aliases, linesize 32 bytes
+Dec  4 11:34:07 [WARN] kernel: Built 1 zonelists in Zone order, mobility grouping on.  Total pages: 32512
+Dec  4 11:34:07 [NOTE] kernel: Kernel command line: console=ttyS0,38400 root=/dev/mtdblock4
+Dec  4 11:34:07 [INFO] kernel: PID hash table entries: 512 (order: -1, 2048 bytes)
+Dec  4 11:34:07 [INFO] kernel: Dentry cache hash table entries: 16384 (order: 4, 65536 bytes)
+Dec  4 11:34:07 [INFO] kernel: Inode-cache hash table entries: 8192 (order: 3, 32768 bytes)
+Dec  4 11:34:07 [INFO] kernel: Writing ErrCtl register=0007e000
+Dec  4 11:34:07 [INFO] kernel: Readback ErrCtl register=0007e000
+Dec  4 11:34:07 [INFO] kernel: Memory: 106040k/131072k available (5604k kernel code, 25032k reserved, 2167k data, 224k init, 0k highmem)
+Dec  4 11:34:07 [INFO] kernel: SLUB: HWalign=32, Order=0-3, MinObjects=0, CPUs=1, Nodes=1
+Dec  4 11:34:07 [INFO] kernel: NR_IRQS:192
+Dec  4 11:34:07 [WARN] kernel: Realtek GPIO IRQ init
+Dec  4 11:34:07 [INFO] kernel: Calibrating delay loop... 666.41 BogoMIPS (lpj=3332096)
+Dec  4 11:34:07 [INFO] kernel: pid_max: default: 4096 minimum: 301
+Dec  4 11:34:07 [INFO] kernel: Mount-cache hash table entries: 512
+Dec  4 11:34:07 [INFO] kernel: NET: Registered protocol family 16
+Dec  4 11:34:07 [WARN] kernel: <<<<<Register PCI Controller>>>>>
+Dec  4 11:34:07 [WARN] kernel: Do MDIO_RESET^M
+Dec  4 11:34:07 [WARN] kernel: 40MHz^M
+Dec  4 11:34:07 [WARN] kernel: Find PCIE Port, Device:Vender ID=f81210ec
+Dec  4 11:34:07 [WARN] kernel: INFO: initializing USB devices ...
+Dec  4 11:34:07 [WARN] kernel: enable port 0 two port enable
+Dec  4 11:34:07 [WARN] kernel: port 0 org 0xe0=e2
+Dec  4 11:34:07 [WARN] kernel: port 0 org 0xe1=31
+Dec  4 11:34:07 [WARN] kernel: port 0 org 0xe2=39
+Dec  4 11:34:07 [WARN] kernel: port 0 org 0xe4=98
+Dec  4 11:34:07 [WARN] kernel: port 0 org 0xe6=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 org 0xe0=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 org 0xe1=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 org 0xe2=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 org 0xe4=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 org 0xe6=c0
+Dec  4 11:34:07 [WARN] kernel: patch new usb phy para for 40M OSC
+Dec  4 11:34:07 [WARN] kernel: system  reg b8000010=0x80047000
+Dec  4 11:34:07 [WARN] kernel: system  reg b8000014=0x180118
+Dec  4 11:34:07 [WARN] kernel: system  reg b8000160=0x1
+Dec  4 11:34:07 [WARN] kernel: system  reg b8000164=0x0
+Dec  4 11:34:07 [WARN] kernel: system  reg b8000168=0x0
+Dec  4 11:34:07 [WARN] kernel: system  reg b800016c=0x10280500
+Dec  4 11:34:07 [WARN] kernel: system  reg b8000180=0x60000
+Dec  4 11:34:07 [WARN] kernel: system  reg b8021094=0x200020
+Dec  4 11:34:07 [WARN] kernel: system  reg b8140200=0xf902cc11
+Dec  4 11:34:07 [WARN] kernel: system  reg b8140204=0x0
+Dec  4 11:34:07 [WARN] kernel: system  reg b8140208=0x2010000
+Dec  4 11:34:07 [WARN] kernel: system  reg b814020c=0x9b00
+Dec  4 11:34:07 [WARN] kernel: system  reg b8140210=0xca00ca
+Dec  4 11:34:07 [WARN] kernel: EHCI  reg b8021050=0x0
+Dec  4 11:34:07 [WARN] kernel: EHCI  reg b8021054=0x2000
+Dec  4 11:34:07 [WARN] kernel: EHCI  reg b8021058=0x0
+Dec  4 11:34:07 [WARN] kernel: OHCI  reg b8020000=0x110
+Dec  4 11:34:07 [WARN] kernel: OHCI  reg b8020004=0x0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg e0=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg e1=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg e2=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg e3=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg e4=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg e5=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg e6=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg e7=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg f0=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg f1=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg f2=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg f3=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg f4=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg f5=c0
+Dec  4 11:34:07 [WARN] kernel: port 0 reg f6=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg e0=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg e1=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg e2=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg e3=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg e4=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg e5=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg e6=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg e7=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg f0=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg f1=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg f2=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg f3=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg f4=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg f5=c0
+Dec  4 11:34:07 [WARN] kernel: port 1 reg f6=c0
+Dec  4 11:34:07 [WARN] kernel: Realtek GPIO controller driver init
+Dec  4 11:34:07 [INFO] kernel: spi: registering sheipa spi device
+Dec  4 11:34:07 [INFO] kernel: bio: create slab <bio-0> at 0
+Dec  4 11:34:07 [NOTE] kernel: SCSI subsystem initialized
+Dec  4 11:34:07 [INFO] kernel: INFO: sheipa spi driver register
+Dec  4 11:34:07 [INFO] kernel: INFO: sheipa spi probe
+Dec  4 11:34:07 [INFO] kernel: usbcore: registered new interface driver usbfs
+Dec  4 11:34:07 [INFO] kernel: usbcore: registered new interface driver hub
+Dec  4 11:34:07 [INFO] kernel: usbcore: registered new device driver usb
+Dec  4 11:34:07 [INFO] kernel: Switching to clocksource MIPS
+Dec  4 11:34:07 [INFO] kernel: NET: Registered protocol family 2
+Dec  4 11:34:07 [INFO] kernel: TCP established hash table entries: 1024 (order: 1, 8192 bytes)
+Dec  4 11:34:07 [INFO] kernel: TCP bind hash table entries: 1024 (order: 0, 4096 bytes)
+Dec  4 11:34:07 [INFO] kernel: TCP: Hash tables configured (established 1024 bind 1024)
+Dec  4 11:34:07 [INFO] kernel: TCP: reno registered
+Dec  4 11:34:07 [INFO] kernel: UDP hash table entries: 256 (order: 0, 4096 bytes)
+Dec  4 11:34:07 [INFO] kernel: UDP-Lite hash table entries: 256 (order: 0, 4096 bytes)
+Dec  4 11:34:07 [INFO] kernel: NET: Registered protocol family 1
+Dec  4 11:34:07 [INFO] kernel: squashfs: version 4.0 (2009/01/31) Phillip Lougher
+Dec  4 11:34:07 [INFO] kernel: msgmni has been set to 207
+Dec  4 11:34:07 [INFO] kernel: io scheduler noop registered (default)
+Dec  4 11:34:07 [INFO] kernel: Serial: 8250/16550 driver, 1 ports, IRQ sharing disabled
+Dec  4 11:34:07 [INFO] kernel: serial8250: ttyS0 at MMIO 0x18147000 (irq = 17) is a 16550A
+Dec  4 11:34:07 [INFO] kernel: console [ttyS0] enabled, bootconsole disabled
+Dec  4 11:34:07 [WARN] kernel: Realtek GPIO Driver for Flash Reload Default
+Dec  4 11:34:07 [INFO] kernel: loop: module loaded
+Dec  4 11:34:07 [WARN] kernel: id_chain value=efaa21ff
+Dec  4 11:34:07 [WARN] kernel: id_chain value=efaa21ff
+Dec  4 11:34:07 [INFO] kernel: NAND device: Manufacturer ID: 0xef, Chip ID: 0xaa (Unknown W25M01GV 1G SPI NAND), 128MiB, page size: 2048, OOB size: 64
+Dec  4 11:34:07 [WARN] kernel: [rtkn_scan_bbt, line 1812], RBA=51, this->RBA_PERCENT = 5,block_v2r_num=1024
+Dec  4 11:34:07 [WARN] kernel: [rtkn_scan_bbt, line 1822] block_v2r_num 400
+Dec  4 11:34:07 [WARN] kernel: ^M[rtk_scan_v2r_bbt]:678,RBA=33,2=400,
+Dec  4 11:34:07 [WARN] kernel: [rtk_scan_v2r_bbt]:684,block_v2r_num=3cd
+Dec  4 11:34:07 [WARN] kernel: INFO: Stored BBT in Die 0: block=8 , block_status_p1=0xbb
+Dec  4 11:34:07 [WARN] kernel: load bbt v2r table:0 page:512
+Dec  4 11:34:07 [WARN] kernel: ^M[rtk_scan_v2r_bbt] have created v2r bbt table:0 on block 8, just loads it !!
+Dec  4 11:34:07 [WARN] kernel: ^Mcheck v2r bbt table:0 OK
+Dec  4 11:34:07 [WARN] kernel: ^M[rtk_nand_scan_bbt, line 393] mem_page_num=1 bbt_page 704
+Dec  4 11:34:07 [WARN] kernel: INFO: Stored BBT in Die 0: block=11 , block_status_p1=0xbb
+Dec  4 11:34:07 [WARN] kernel: load bbt table:0 page:704
+Dec  4 11:34:07 [WARN] kernel: ^M[rtk_nand_scan_bbt] have created bbt table:0 on block 11, just loads it !!
+Dec  4 11:34:07 [WARN] kernel: ^Mcheck bbt table:0 OK
+Dec  4 11:34:07 [WARN] kernel: ^M[dump_BBT] Nand BBT Content
+Dec  4 11:34:07 [WARN] kernel: Congratulation!! No BBs in this Nand.
+Dec  4 11:34:07 [WARN] kernel: rtk_nand: squashfs filesystem found at offset 0xa80000, size: 0x7c0072
+Dec  4 11:34:07 [NOTE] kernel: 11 dlinkpart partitions found on MTD device rtk_nand
+Dec  4 11:34:07 [NOTE] kernel: Creating 11 MTD partitions on "rtk_nand":
+Dec  4 11:34:07 [NOTE] kernel: 0x000000000000-0x000000400000 : "boot"
+Dec  4 11:34:07 [NOTE] kernel: 0x000000400000-0x000000600000 : "MAC"
+Dec  4 11:34:07 [NOTE] kernel: 0x000000600000-0x000000800000 : "config"
+Dec  4 11:34:07 [NOTE] kernel: 0x000000800000-0x000000a80000 : "kernel"
+Dec  4 11:34:07 [NOTE] kernel: 0x000000a80000-0x000001280000 : "rootfs"
+Dec  4 11:34:07 [NOTE] kernel: 0x000000800000-0x000003980000 : "Linux"
+Dec  4 11:34:07 [NOTE] kernel: 0x000000000000-0x000008000000 : "ALL"
+Dec  4 11:34:07 [NOTE] kernel: 0x000003980000-0x000004180000 : "reserved"
+Dec  4 11:34:07 [NOTE] kernel: 0x000004180000-0x000004400000 : "kernel (bank2)"
+Dec  4 11:34:07 [NOTE] kernel: 0x000004400000-0x000004c00000 : "rootfs (bank2)"
+Dec  4 11:34:07 [NOTE] kernel: 0x000004180000-0x000007300000 : "Linux (bank2)"
+Dec  4 11:34:07 [INFO] kernel: PPP generic driver version 2.4.2
+Dec  4 11:34:07 [INFO] kernel: NET: Registered protocol family 24
+Dec  4 11:34:07 [INFO] kernel: MPPE/MPPC encryption/compression module registered
+Dec  4 11:34:07 [WARN] kernel: Realtek WLAN driver - version 3.8.0(2017-12-26)(SVN:)
+Dec  4 11:34:07 [WARN] kernel: DFS function - version 3.0.0
+Dec  4 11:34:07 [WARN] kernel: Adaptivity function - version 9.7.07
+Dec  4 11:34:07 [WARN] kernel: Do MDIO_RESET^M
+Dec  4 11:34:07 [WARN] kernel: 40MHz^M
+Dec  4 11:34:07 [WARN] kernel: Find PCIE Port, Device:Vender ID=f81210ec
+Dec  4 11:34:07 [WARN] kernel: rtl8192cd_init_one(15716): vendor_deivce_id(f81210ec) sub(f81210ec)
+Dec  4 11:34:07 [WARN] kernel:  found 8812F !!! 
+Dec  4 11:34:07 [WARN] kernel: IS_RTL8812F_SERIES value8 = 14 
+Dec  4 11:34:07 [WARN] kernel: Hardware type = RTL8812FE
+Dec  4 11:34:07 [WARN] kernel: MACHAL_version_init
+Dec  4 11:34:07 [WARN] kernel: 11692M
+Dec  4 11:34:07 [WARN] kernel: HALMAC_MAJOR_VER = 1
+Dec  4 11:34:07 [WARN] kernel: HALMAC_PROTOTYPE_VER = 6
+Dec  4 11:34:07 [WARN] kernel: HALMAC_MINOR_VER = 6
+Dec  4 11:34:07 [WARN] kernel: HALMAC_PATCH_VER = 6
+Dec  4 11:34:07 [WARN] kernel: halmac_init_adapter Succss 
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x11ff
+Dec  4 11:34:07 [WARN] kernel: #######################################################
+Dec  4 11:34:07 [WARN] kernel: SKB_BUF_SIZE=4440 MAX_SKB_NUM=1024
+Dec  4 11:34:07 [WARN] kernel: #######################################################
+Dec  4 11:34:07 [WARN] kernel: [roam_nl_init:162] family no = 18
+Dec  4 11:34:07 [WARN] kernel: [roam_nl_init:164] Module initialized.
+Dec  4 11:34:07 [ALRT] kernel: ROAM UP
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x11ff
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x11ff
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x11ff
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x11ff
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x11ff
+Dec  4 11:34:07 [WARN] kernel: MACHAL_version_init
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x8108
+Dec  4 11:34:07 [WARN] kernel: RFE TYPE =0
+Dec  4 11:34:07 [WARN] kernel: #######################################################
+Dec  4 11:34:07 [WARN] kernel: SKB_BUF_SIZE=3040 MAX_SKB_NUM=400
+Dec  4 11:34:07 [WARN] kernel: #######################################################
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x8108
+Dec  4 11:34:07 [WARN] kernel: RFE TYPE =0
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x8108
+Dec  4 11:34:07 [WARN] kernel: RFE TYPE =0
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x8108
+Dec  4 11:34:07 [WARN] kernel: RFE TYPE =0
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x8108
+Dec  4 11:34:07 [WARN] kernel: RFE TYPE =0
+Dec  4 11:34:07 [WARN] kernel: [MACFM_software_init 297]wifi hal support Mac function = 0x8108
+Dec  4 11:34:07 [WARN] kernel: RFE TYPE =0
+Dec  4 11:34:07 [INFO] kernel: ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Dec  4 11:34:07 [INFO] kernel: rtl819x-ehci rtl819x-ehci: Realtek rtl819x On-Chip EHCI Host Controller
+Dec  4 11:34:07 [INFO] kernel: rtl819x-ehci rtl819x-ehci: new USB bus registered, assigned bus number 1
+Dec  4 11:34:07 [INFO] kernel: rtl819x-ehci rtl819x-ehci: irq 21, io mem 0x18021000
+Dec  4 11:34:07 [INFO] kernel: rtl819x-ehci rtl819x-ehci: USB 2.0 started, EHCI 1.00
+Dec  4 11:34:07 [INFO] kernel: hub 1-0:1.0: USB hub found
+Dec  4 11:34:07 [INFO] kernel: hub 1-0:1.0: 1 port detected
+Dec  4 11:34:07 [INFO] kernel: ohci_hcd: USB 1.1 'Open' Host Controller (OHCI) Driver
+Dec  4 11:34:07 [INFO] kernel: rtl819x-ohci rtl819x-ohci: Realtek rtl819x built-in OHCI controller
+Dec  4 11:34:07 [INFO] kernel: rtl819x-ohci rtl819x-ohci: new USB bus registered, assigned bus number 2
+Dec  4 11:34:07 [INFO] kernel: rtl819x-ohci rtl819x-ohci: irq 21, io mem 0x18020000
+Dec  4 11:34:07 [INFO] kernel: hub 2-0:1.0: USB hub found
+Dec  4 11:34:07 [INFO] kernel: hub 2-0:1.0: 1 port detected
+Dec  4 11:34:07 [INFO] kernel: usbcore: registered new interface driver usb-storage
+Dec  4 11:34:07 [INFO] kernel: Netfilter messages via NETLINK v0.30.
+Dec  4 11:34:07 [INFO] kernel: nf_conntrack version 0.5.0 (1656 buckets, 6624 max)
+Dec  4 11:34:07 [INFO] kernel: ctnetlink v0.93: registering with nfnetlink.
+Dec  4 11:34:07 [INFO] kernel: ip_tables: (C) 2000-2006 Netfilter Core Team
+Dec  4 11:34:07 [INFO] kernel: TCP: cubic registered
+Dec  4 11:34:07 [INFO] kernel: NET: Registered protocol family 10
+Dec  4 11:34:07 [INFO] kernel: ip6_tables: (C) 2000-2006 Netfilter Core Team
+Dec  4 11:34:07 [INFO] kernel: NET: Registered protocol family 17
+Dec  4 11:34:07 [INFO] kernel: Ebtables v2.0 registered
+Dec  4 11:34:07 [INFO] kernel: l2tp_core: L2TP core driver, V2.0
+Dec  4 11:34:07 [INFO] kernel: 8021q: 802.1Q VLAN Support v1.8
+Dec  4 11:34:07 [WARN] kernel: Realtek FastPath:v1.03
+Dec  4 11:34:07 [INFO] kernel: nlmon_new: module starting ...
+Dec  4 11:34:07 [WARN] kernel: Probing RTL819X NIC-kenel stack size order[2]...
+Dec  4 11:34:07 [WARN] kernel: [rtl865x_adjustQueueLen:4177] memory: bb80457c,  value: fc00ff
+Dec  4 11:34:07 [WARN] kernel: [rtl865x_adjustQueueLen:4177] memory: bb804580,  value: fc00ff
+Dec  4 11:34:07 [WARN] kernel: [rtl865x_adjustQueueLen:4177] memory: bb804584,  value: fc00ff
+Dec  4 11:34:07 [WARN] kernel: [rtl865x_adjustQueueLen:4177] memory: bb8045c4,  value: fc00ff
+Dec  4 11:34:07 [WARN] kernel: [rtl865x_adjustQueueLen:4177] memory: bb8045c8,  value: fc00ff
+Dec  4 11:34:07 [WARN] kernel: [rtl865x_adjustQueueLen:4177] memory: bb8045cc,  value: fc00ff
+Dec  4 11:34:07 [WARN] kernel: Start to init 8363
+Dec  4 11:34:07 [WARN] kernel: Switch API version: v1.3.11, chip id: 0x6367-0020
+Dec  4 11:34:07 [WARN] kernel: init_83XX: base init OK (RST=58 MDC=56 MDIO=55)
+Dec  4 11:34:07 [WARN] kernel: End of L2 ASIC init
+Dec  4 11:34:07 [WARN] kernel: eth0 added. vid=9 Member port 0x10f...
+Dec  4 11:34:07 [WARN] kernel: eth1 added. vid=8 Member port 0x10...
+Dec  4 11:34:07 [WARN] kernel: rtl819x_dlink Generic Netlink family is registered.
+Dec  4 11:34:07 [INFO] kernel: VFS: Mounted root (squashfs filesystem) readonly on device 31:4.
+Dec  4 11:34:07 [INFO] kernel: Freeing unused kernel memory: 224K (80798000 - 807d0000)
+Dec  4 11:34:07 [WARN] kernel: gpiom: module license 'Proprietary' taints kernel.
+Dec  4 11:34:07 [WARN] kernel: Disabling lock debugging due to kernel taint
+Dec  4 11:34:07 [INFO] kernel: gpiom: module starting ...
+Dec  4 11:34:07 [INFO] kernel: gpiom: using profile DIR_825I_RT8197G.
+Dec  4 11:34:07 [INFO] kernel: gpiom: button support enabled.
+Dec  4 11:34:07 [INFO] kernel: gpiom: led support enabled.
+Dec  4 11:34:07 [INFO] kernel: gpiom: ctrl support disabled.
+Dec  4 11:34:16 [ ERR] d_wifi_regdb_get_domain[1031]: Invalid country code: 
+Dec  4 11:34:16 [ ERR] d_wifi_regdb_get_domain[1031]: Invalid country code: 
+Dec  4 11:34:16 [ ERR] d_wifi_regdb_get_domain[1031]: Invalid country code: 
+Dec  4 11:34:16 [ ERR] d_wifi_regdb_get_domain[1031]: Invalid country code: 
+Dec  4 11:34:16 [ ERR] d_wifi_regdb_get_domain[1031]: Invalid country code: 
+Dec  4 11:34:16 [ ERR] d_wifi_regdb_get_domain[1031]: Invalid country code: 
+Dec  4 11:34:16 [INFO] fix_country_code[1032]: Fixing RegulatoryDomain -> IN
+Dec  4 11:34:16 [WARN] d_wifi_parse_json[1032]: Invalid channel 1 for Radio #2 (5GHz, Auto)
+Dec  4 11:34:16 [INFO] rlx_wifi[1032]: restart all settings for Radio.1
+Dec  4 11:34:16 [INFO] set_driver_channels[1032]: set for IN (2.4 GHz): 2g channels 1:2:3:4:5:6:7:8:9:10:11:12:13:
+Dec  4 11:34:16 [INFO] get_power_lmt_array_8197G[1032]: use custom power limit table Tenda_825I
+Dec  4 11:34:16 [INFO] set_pwr_limit[1032]: [wlan1] disable (IN)
+Dec  4 11:34:16 [INFO] rlx_wifi[1032]: restart all settings for Radio.2
+Dec  4 11:34:16 [INFO] set_driver_channels[1032]: set for IN (5 GHz): 5g channels 36:40:44:48:
+Dec  4 11:34:16 [INFO] get_power_lmt_array_8812F[1032]: use custom power limit table Tenda_825I
+Dec  4 11:34:16 [INFO] set_pwr_limit[1032]: [wlan0] disable (IN)
+Dec  4 11:34:17 [WARN] kernel: ----->rtl8192cd_open
+Dec  4 11:34:18 [WARN] kernel: chip_version=0x100f,WlanSupportAbility = 0x2
+Dec  4 11:34:18 [WARN] kernel: PrepareRXBD88XX_V1 134 
+Dec  4 11:34:18 [WARN] kernel: test 0x871d2c00,0x30,0x71d2e80,0x0, 
+Dec  4 11:34:18 [WARN] kernel: test 0x871d2c80,0x30,0x71d2ec0,0x0, 
+Dec  4 11:34:18 [WARN] kernel: test 0x871d2d00,0x30,0x71d2f00,0x0, 
+Dec  4 11:34:18 [WARN] kernel: test 0x871d2d80,0x30,0x71d2f40,0x0, 
+Dec  4 11:34:18 [WARN] kernel: test 0x871d2e00,0x30,0x71d2f80,0x0, 
+Dec  4 11:34:18 [WARN] kernel: invalid supproted rate, use default value [fff]!
+Dec  4 11:34:18 [WARN] kernel: invalid basic rate, use default value [f]!
+Dec  4 11:34:18 [WARN] kernel: [wlan1] SAE INIT...
+Dec  4 11:34:18 [WARN] kernel: [wlan1] init sae_peer_table 
+Dec  4 11:34:18 [WARN] kernel:  [wlan1] init sae_peer_hex64_fail_table 
+Dec  4 11:34:18 [WARN] kernel:  [wlan1] init sae_blacklist_table 
+Dec  4 11:34:18 [WARN] kernel:  ----->rtl8192cd_init_hw_PCI
+Dec  4 11:34:18 [WARN] kernel: [97F] RFE type 0 PHY paratemters: DEFAULT
+Dec  4 11:34:18 [WARN] kernel: clock 40MHz
+Dec  4 11:34:18 [WARN] kernel: AP-mode enabled...
+Dec  4 11:34:18 [WARN] kernel: RT_OP_MODE_AP...
+Dec  4 11:34:18 [WARN] kernel: load efuse ok
+Dec  4 11:34:18 [WARN] kernel: rom_progress: 0x200046f
+Dec  4 11:34:18 [WARN] kernel: [GetHwReg88XX][rtl8197Gfw]
+Dec  4 11:34:18 [WARN] kernel: [GetHwReg88XX][rtl8197Gfw size]
+Dec  4 11:34:18 [WARN] kernel: InitMACTRX OK
+Dec  4 11:34:18 [WARN] kernel: InitMACProtocolHandler OK
+Dec  4 11:34:18 [WARN] kernel: InitMACSchedulerHandler OK
+Dec  4 11:34:18 [WARN] kernel: InitMACWMACHandler OK
+Dec  4 11:34:18 [WARN] kernel: InitMACSysyemCfgHandler OK
+Dec  4 11:34:18 [WARN] kernel: InitMACFunctionHandler OK
+Dec  4 11:34:18 [WARN] kernel: [GetHwReg88XX][PHY_REG_PG_8197Gmp_Type0] size = 0x873 *((pu4Byte)(val))=0 
+Dec  4 11:34:18 [WARN] kernel: [GetHwReg88XX][PHY_REG_PG_8197Gmp_Type0 start ] 8070950c 
+Dec  4 11:34:18 [WARN] kernel: start_addr=(0x0), end_addr=(0x10000), buffer_size=(0x10000), smp_number_max=(8192)
+Dec  4 11:34:18 [WARN] kernel: rtl8192cd_init_hw_PCI----->
+Dec  4 11:34:18 [WARN] kernel: rtl8192cd_open----->
+Dec  4 11:34:18 [WARN] kernel: ----->rtl8192cd_open
+Dec  4 11:34:18 [WARN] kernel: chip_version=0x2001,WlanSupportAbility = 0x3
+Dec  4 11:34:18 [WARN] kernel: [ACS] 5G should not use acs_type=1, change to acs_type=2
+Dec  4 11:34:18 [WARN] kernel: invalid supproted rate, use default value [ff0]!
+Dec  4 11:34:18 [WARN] kernel: invalid basic rate, use default value [150]!
+Dec  4 11:34:18 [WARN] kernel: [wlan0] SAE INIT...
+Dec  4 11:34:18 [WARN] kernel: [wlan0] init sae_peer_table 
+Dec  4 11:34:18 [WARN] kernel:  [wlan0] init sae_peer_hex64_fail_table 
+Dec  4 11:34:18 [WARN] kernel:  [wlan0] init sae_blacklist_table 
+Dec  4 11:34:18 [WARN] kernel:  ----->rtl8192cd_init_hw_PCI
+Dec  4 11:34:18 [WARN] kernel: clock 40MHz
+Dec  4 11:34:18 [WARN] kernel: InitPON OK!!!
+Dec  4 11:34:18 [WARN] kernel: REG_HCI_MIX_CFG = 2b 
+Dec  4 11:34:18 [WARN] kernel: InitMAC Page0 
+Dec  4 11:34:18 [WARN] kernel: >>SetBeaconDownload88XX
+Dec  4 11:34:18 [WARN] kernel: Init Download FW OK 
+Dec  4 11:34:18 [WARN] kernel: halmac_init_mac_cfg OK
+Dec  4 11:34:18 [WARN] kernel: halmac_cfg_rx_aggregation OK
+Dec  4 11:34:18 [WARN] kernel: halmac_init_mac_cfg OK
+Dec  4 11:34:18 [WARN] kernel: [GetHwReg88XX][size PHY_REG_PG_8812Fmp_Type0]
+Dec  4 11:34:18 [WARN] kernel: [GetHwReg88XX][PHY_REG_PG_8812Fmp_Type0]
+Dec  4 11:34:18 [WARN] kernel: start_addr=(0x20000), end_addr=(0x40000), buffer_size=(0x20000), smp_number_max=(16384)
+Dec  4 11:34:19 [WARN] kernel: [set_8812F_trx_regs] +++ 
+Dec  4 11:34:19 [WARN] kernel: rtl8192cd_init_hw_PCI----->
+Dec  4 11:34:19 [WARN] kernel: rtl8192cd_open----->
+Dec  4 11:34:19 [WARN] kernel: [ACS][wlan0]: ch36:0 ch40:0 ch44:0 ch48:0 
+Dec  4 11:34:19 [WARN] kernel: [ACS2][wlan0]ch  36: ap_count: 1, score: 0xffffffff 80N:2880N:12
+Dec  4 11:34:19 [WARN] kernel: [ACS2][wlan0]ch  40: ap_count: 0, score: 0xffffffff 
+Dec  4 11:34:19 [WARN] kernel: [ACS2][wlan0]ch  44: ap_count: 0, score: 0xffffffff 
+Dec  4 11:34:19 [WARN] kernel: [ACS2][wlan0]ch  48: ap_count: 0, score: 0xffffffff 
+Dec  4 11:34:19 [WARN] kernel: [ACS2] !!!! Not found clean channel, use NHM/CLM algorithm
+Dec  4 11:34:19 [WARN] kernel: [ACS][wlan0]: Auto channel choose ch: 36, 2nd_offset: above
+Dec  4 11:34:20 [NOTE] d_socket_poll_process[859]: cannot find socket, fd 17
+Dec  4 11:34:20 [WARN] d_service_start[859]: Module 'NetlinkUevents' not found.
+Dec  4 11:34:21 [WARN] kernel: [ACS][wlan1]ch 1: ap_count: 2, score: 0xffffffff U:24 N:18 N:14 N:11 N:10 
+Dec  4 11:34:21 [NOTE] start_Modules[1154]: Modules for RTSP: all loaded. OK
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 2: ap_count: 1, score: 0xffffffff N:44 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 3: ap_count: 1, score: 0xffffffff N:23 N:7 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 4: ap_count: 0, score: 0xffffffff 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 5: ap_count: 0, score: 0xffffffff N:13 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 6: ap_count: 2, score: 0xffffffff L:39 N:16 U:10 N:5 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 7: ap_count: 0, score: 0xffffffff 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 8: ap_count: 1, score: 0xffffffff N:31 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 9: ap_count: 0, score: 0xffffffff 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 10: ap_count: 0, score: 0xffffffff N:8 N:7 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 11: ap_count: 1, score: 0xffffffff N:31 L:8 N:5 N:4 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 12: ap_count: 0, score: 0xffffffff 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]ch 13: ap_count: 1, score: 0xffffffff L:20 
+Dec  4 11:34:22 [WARN] kernel: !! Not found clean channel, use NHM algorithm
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_1: H<-[   0   0   0   0   0   0   0   0   0   0   7 139]->L, score: 160
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_2: H<-[   0   0   3   3   1   1   4  11  22  19  31 123]->L, score: 84492
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_3: H<-[   1   3   4   5   7   3   4   2   6  12  37 153]->L, score: 484995
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_4: H<-[  22   0   1   1   0   0   4   4  11  13  30 153]->L, score: 3925431
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_5: H<-[   7   2   0   0   2   6   6   4   4  16  50 130]->L, score: 1369189
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_6: H<-[   2   4   0   0   0   0   2   3   3  13  49 131]->L, score: 591695
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_7: H<-[  14   5   3   0   0   2   3   1   8  21  47 134]->L, score: 2837300
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_8: H<-[  18  30  37  18   2   0   2   2  10  19  37  67]->L, score: 5812126
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_9: H<-[   9   8  11   4   0   0   0   0   5  25  58 116]->L, score: 2310122
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_10: H<-[   9   3   5   1   0   0   0   1   8  29  57 113]->L, score: 1877288
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_11: H<-[  11   8  11   4   0   0   0   0   5  22  52 110]->L, score: 2664365
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_12: H<-[   7   5   6   3   1   1   0   1   8  30  61 102]->L, score: 1676823
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] nhm_cnt_13: H<-[   7   9  11   2   0   0   0   0   2  12  48 152]->L, score: 2001563
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]: ch1:160 ch2:84492 ch3:484995 ch4:3925431 ch5:1369189 ch6:591695 ch7:2837300 ch8:5812126 ch9:2310122 ch10:1877288 ch11:2664365 ch12:4294967295 ch13:4294967295 
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] groupScore, ch 1,5: 1369349
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] groupScore, ch 2,6: 676187
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] groupScore, ch 3,7: 3322295
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] groupScore, ch 4,8: 9737557
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] groupScore, ch 5,9: 3679311
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] groupScore, ch 6,10: 2468983
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1] groupScore, ch 7,11: 5501665
+Dec  4 11:34:22 [WARN] kernel: [ACS][wlan1]: Auto channel choose ch: 2, 2nd_offset: above
+Dec  4 11:34:22 [WARN] kernel: nf_conntrack_rtsp v0.6.21 loading
+Dec  4 11:34:22 [WARN] kernel: nf_nat_rtsp v0.6.21 loading
+Dec  4 11:34:26 [WARN] search_ipv4_address[1203]: Needed IP address not found
+Dec  4 11:34:26 [WARN] search_ipv4_address[1203]: Needed IP address not found
+Dec  4 11:34:27 [INFO] init[860]: Boot time (phase 1): 15.06 sec (kernel), 27.21 (user)
+Dec  4 11:34:27 [INFO] kernel: IPv6: ADDRCONF(NETDEV_UP): eth1: link is not ready
+Dec  4 11:34:28 [INFO] kernel: device eth0.1 entered promiscuous mode
+Dec  4 11:34:28 [INFO] kernel: device eth0 entered promiscuous mode
+Dec  4 11:34:28 [INFO] kernel: device wlan1 entered promiscuous mode
+Dec  4 11:34:28 [INFO] kernel: device wlan0 entered promiscuous mode
+Dec  4 11:34:28 [INFO] kernel: br0: port 3(wlan0) entered forwarding state
+Dec  4 11:34:28 [INFO] init[859]: Boot time (phase 2): 15.06 sec (kernel), 28.06 (user)
+Dec  4 11:34:28 [INFO] kernel: br0: port 3(wlan0) entered forwarding state
+Dec  4 11:34:28 [INFO] kernel: br0: port 2(wlan1) entered forwarding state
+Dec  4 11:34:28 [INFO] kernel: br0: port 2(wlan1) entered forwarding state
+Dec  4 11:34:28 [INFO] kernel: br0: port 1(eth0.1) entered forwarding state
+Dec  4 11:34:28 [INFO] kernel: br0: port 1(eth0.1) entered forwarding state
+Dec  4 11:34:29 [INFO] anweb[1303]: Starting...
+Dec  4 11:34:29 [INFO] anweb[1309]: HTTP main server started on 80,443s port (ports).
+Dec  4 11:34:29 [INFO] anweb[1309]: HTTP intercept server started on 81,4445s port (ports).
+Dec  4 11:34:29 [INFO] anweb[1309]: SafeDNS intercept server started on 5353,5454s port (ports).
+Dec  4 11:34:29 [INFO] kernel: device eth0.1 left promiscuous mode
+Dec  4 11:34:29 [INFO] kernel: device eth0 left promiscuous mode
+Dec  4 11:34:29 [INFO] kernel: br0: port 1(eth0.1) entered disabled state
+Dec  4 11:34:29 [INFO] kernel: IPv6: ADDRCONF(NETDEV_CHANGE): eth1: link becomes ready
+Dec  4 11:34:29 [INFO] udhcpc[1329]: started, v1.31.1
+Dec  4 11:34:29 [INFO] udhcpc[1329]: sending discover
+Dec  4 11:34:29 [INFO] udhcpc[1329]: sending select for 10.198.51.167
+Dec  4 11:34:29 [INFO] udhcpc[1329]: lease of 10.198.51.167 obtained, lease time 79200
+Dec  4 11:34:29 [WARN] streams_condition[1352]: Not active interface -> don't started IGMPX
+Dec  4 11:34:30 [INFO] udhcpc[1329]: performing DHCP renew
+Dec  4 11:34:30 [INFO] udhcpc[1329]: sending renew to 10.198.0.1
+Dec  4 11:34:30 [ ERR] udhcpc[1329]: bind(UDP): Cannot assign requested address
+Dec  4 11:34:30 [INFO] udhcpc[1329]: sending renew to 0.0.0.0
+Dec  4 11:34:30 [INFO] udhcpc[1329]: lease of 10.198.51.167 obtained, lease time 79200
+Dec  4 11:34:31 [NOTE] d_socket_poll_process[859]: cannot find socket, fd 21
+Dec  4 11:34:31 [INFO] kernel: device eth0.1 entered promiscuous mode
+Dec  4 11:34:31 [INFO] kernel: device eth0 entered promiscuous mode
+Dec  4 11:34:31 [INFO] kernel: br0: port 1(eth0.1) entered forwarding state
+Dec  4 11:34:31 [INFO] kernel: br0: port 1(eth0.1) entered forwarding state
+Dec  4 11:34:32 [WARN] kernel: FastPath: sync eth1 addr: 10.198.51.167/255.255.192.0
+Dec  4 11:34:32 [INFO] d_task_get_pid_by_fd[859]: Process already killed
+Dec  4 11:34:32 [WARN] kernel: FastPath: sync br0 addr: 192.168.0.1/255.255.255.0
+Dec  4 11:34:32 [INFO] dhcp_opt_print[1413]: Option(1): 255.255.192.0
+Dec  4 11:34:32 [INFO] dhcp_opt_print[1413]: Option(3): 10.198.0.1
+Dec  4 11:34:32 [INFO] dhcp_opt_print[1413]: Option(6): 106.51.255.135 106.51.156.186
+Dec  4 11:34:32 [INFO] dhcp_opt_print[1413]: Option(51): 79200
+Dec  4 11:34:32 [INFO] dhcp_opt_print[1413]: Option(54): 10.198.0.1
+Dec  4 11:34:32 [INFO] igmpx[1527]: daemonizing ...
+Dec  4 11:34:32 [NOTE] igmpx[1529]: kernel multicast version is 305 (v3.05 ?)
+Dec  4 11:34:32 [INFO] igmpx[1529]: kernel mroute inited
+Dec  4 11:34:32 [INFO] igmpx[1529]: proxy prepared
+Dec  4 11:34:32 [INFO] igmpx[1529]: config: query_interval        = 125 sec
+Dec  4 11:34:32 [INFO] igmpx[1529]: config: query_response_period = 10.0 sec (code = 0x64)
+Dec  4 11:34:32 [INFO] igmpx[1529]: config: last_response_period  = 1.0 sec (code = 0x0a)
+Dec  4 11:34:32 [INFO] igmpx[1529]: config: doublet_join          = disabled
+Dec  4 11:34:32 [INFO] igmpx[1529]: config: hews_interval         = 0.0 sec
+Dec  4 11:34:32 [INFO] igmpx[1529]: vifi #0 added for eth1
+Dec  4 11:34:32 [INFO] igmpx[1529]: VIF eth1: 0 allowed net(s) configured
+Dec  4 11:34:32 [INFO] igmpx[1529]: VIF eth1: 0 denied net(s) configured
+Dec  4 11:34:32 [INFO] igmpx[1529]: 1 upstream(s) configured
+Dec  4 11:34:32 [INFO] igmpx[1529]: vifi #1 added for br0
+Dec  4 11:34:32 [INFO] igmpx[1529]: VIF br0: 0 allowed net(s) configured
+Dec  4 11:34:32 [INFO] igmpx[1529]: VIF br0: 0 denied net(s) configured
+Dec  4 11:34:32 [INFO] igmpx[1529]: 1 downstream(s) configured
+Dec  4 11:34:32 [WARN] DNSMASQ_SCRIPT[1535]: Too small arguments
+Dec  4 11:34:33 [WARN] dnsmasq[1538]: no servers found in /tmp/dnsmasq/resolv34.conf, will retry
+Dec  4 11:34:35 [INFO] dhcp_opt_print[1665]: Option(1): 255.255.192.0
+Dec  4 11:34:35 [INFO] dhcp_opt_print[1665]: Option(3): 10.198.0.1
+Dec  4 11:34:35 [INFO] dhcp_opt_print[1665]: Option(6): 106.51.255.135 106.51.156.186
+Dec  4 11:34:35 [INFO] dhcp_opt_print[1665]: Option(51): 79200
+Dec  4 11:34:35 [INFO] dhcp_opt_print[1665]: Option(54): 10.198.0.1
+Dec  4 11:34:36 [NOTE] miniupnpd[1752]: HTTP listening on port 56611
+Dec  4 11:34:36 [NOTE] miniupnpd[1752]: Listening for NAT-PMP/PCP traffic on port 5351
+Dec  4 11:34:37 [INFO] check_group_wan[1750]: The master connection is started
+Dec  4 11:34:39 [WARN] d_task_update_pidfile[1963]: Another instance is already running: [1787].
+Dec  4 11:34:40 [WARN] drop_hung_client[859]: Drop hung client from (null)[-1]
+Dec  4 11:34:40 [WARN] d_service_find_by_socket[859]: Service (service_fd = 26) not found.
+Dec  4 11:34:40 [ ERR] d_service_update[859]: Service not found
+Dec  4 11:34:41 [WARN] DNSMASQ_SCRIPT[2109]: Too small arguments
+Dec  4 11:34:41 [NOTE] check_ntp[2142]: WAN connection [Device.Network.Connection.DHCP.1.] was up => update ntp-client
+Dec  4 11:34:42 [NOTE] AUTOUPDATE[2155]: This device DIR_825I_RT8197G_WW is not supported
+Dec  4 11:35:06 [WARN] kernel: [wlan0]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:35:06 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Dec  4 11:35:06 [WARN] kernel: [wlan0]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:35:07 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:07 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:08 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:09 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:10 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:11 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:11 [WARN] kernel: [wlan0]: A wireless client is disassociated - 4C:D5:77:35:44:1D
+Dec  4 11:35:26 [WARN] kernel: [wlan1]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:35:26 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:35:26 [WARN] kernel: [wlan1]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:35:26 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:27 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:28 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:29 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:30 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:31 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:35:31 [WARN] kernel: [wlan1]: A wireless client is disassociated - 4C:D5:77:35:44:1D
+Dec  4 11:36:56 [WARN] kernel: [wlan1]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:36:56 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:36:56 [WARN] kernel: [wlan1]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:36:56 [WARN] kernel: [wlan1]: Open and authenticated
+Dec  4 11:37:00 [WARN] dnsmasq-dhcp[2111]: no address range available for DHCPv6 request via br0
+Dec  4 11:37:00 [WARN] dnsmasq-dhcp[2111]: no address range available for DHCPv6 request via br0
+Dec  4 11:37:00 [WARN] dnsmasq-dhcp[2111]: no address range available for DHCPv6 request via br0
+Dec  4 11:37:00 [INFO] igmpx[1529]: leave group 224.0.0.251 from 192.168.0.156
+Dec  4 11:37:00 [INFO] igmpx[1529]: leave group 224.0.0.252 from 192.168.0.156
+Dec  4 11:37:00 [INFO] igmpx[1529]: leave group 224.0.0.252 from 192.168.0.156
+Dec  4 11:37:00 [INFO] igmpx[1529]: added membership for 239.255.255.250 on upstream #0 10.198.51.167
+Dec  4 11:37:00 [NOTE] igmpx[1529]: added new route 239.255.255.250: 10.198.51.167 -> 192.168.0.1
+Dec  4 11:37:00 [INFO] update_IGMPX[2292]: [JOIN] Ifname: eth1  Group: 239.255.255.250
+Dec  4 11:37:00 [WARN] dnsmasq-dhcp[2111]: no address range available for DHCPv6 request via br0
+Dec  4 11:37:01 [NOTE] igmpx[1529]: route 239.255.255.250 on upstream #0 activated with 192.168.0.156
+Dec  4 11:37:04 [WARN] dnsmasq-dhcp[2111]: no address range available for DHCPv6 request via br0
+Dec  4 11:37:10 [NOTE] AUTH[859]: Attempt to proceed a RPC with invalid token: INVALID_TOKEN
+Dec  4 11:37:10 [NOTE] [AUTH][859]: User 'admin' successfully logged in
+Dec  4 11:37:12 [WARN] dnsmasq-dhcp[2111]: no address range available for DHCPv6 request via br0
+Dec  4 11:37:28 [WARN] dnsmasq-dhcp[2111]: no address range available for DHCPv6 request via br0
+Dec  4 11:38:00 [WARN] dnsmasq-dhcp[2111]: no address range available for DHCPv6 request via br0
+Dec  4 11:38:40 [INFO] rlx_wifi[2441]: restart all settings for Radio.1
+Dec  4 11:38:40 [WARN] kernel: ----->rtl8192cd_close
+Dec  4 11:38:40 [WARN] kernel: rtl8192cd_close----->
+Dec  4 11:38:40 [INFO] kernel: br0: port 2(wlan1) entered disabled state
+Dec  4 11:38:40 [INFO] set_driver_channels[2441]: set for IN (2.4 GHz): 2g channels 1:2:3:4:5:6:7:8:9:10:11:12:13:
+Dec  4 11:38:40 [INFO] get_power_lmt_array_8197G[2441]: use custom power limit table Tenda_825I
+Dec  4 11:38:40 [INFO] set_pwr_limit[2441]: [wlan1] disable (IN)
+Dec  4 11:38:40 [INFO] rlx_wifi[2441]: restart all settings for Radio.2
+Dec  4 11:38:40 [WARN] kernel: ----->rtl8192cd_close
+Dec  4 11:38:40 [INFO] set_driver_channels[2441]: set for IN (5 GHz): 5g channels 36:40:44:48:
+Dec  4 11:38:40 [INFO] get_power_lmt_array_8812F[2441]: use custom power limit table Tenda_825I
+Dec  4 11:38:40 [INFO] set_pwr_limit[2441]: [wlan0] disable (IN)
+Dec  4 11:38:41 [WARN] kernel: Error Flag: 0xffff0000
+Dec  4 11:38:41 [WARN] kernel: rtl8192cd_close----->
+Dec  4 11:38:41 [INFO] kernel: br0: port 3(wlan0) entered disabled state
+Dec  4 11:38:41 [WARN] kernel: ----->rtl8192cd_open
+Dec  4 11:38:41 [WARN] kernel: chip_version=0x100f,WlanSupportAbility = 0x2
+Dec  4 11:38:41 [WARN] kernel: PrepareRXBD88XX_V1 134 
+Dec  4 11:38:41 [WARN] kernel: test 0x871d2c00,0x30,0x71d2e80,0x0, 
+Dec  4 11:38:41 [WARN] kernel: test 0x871d2c80,0x30,0x71d2ec0,0x0, 
+Dec  4 11:38:41 [WARN] kernel: test 0x871d2d00,0x30,0x71d2f00,0x0, 
+Dec  4 11:38:41 [WARN] kernel: test 0x871d2d80,0x30,0x71d2f40,0x0, 
+Dec  4 11:38:41 [WARN] kernel: test 0x871d2e00,0x30,0x71d2f80,0x0, 
+Dec  4 11:38:41 [WARN] kernel: invalid supproted rate, use default value [fff]!
+Dec  4 11:38:41 [WARN] kernel: invalid basic rate, use default value [f]!
+Dec  4 11:38:41 [WARN] kernel: [wlan1] SAE INIT...
+Dec  4 11:38:41 [WARN] kernel: [wlan1] init sae_peer_table 
+Dec  4 11:38:41 [WARN] kernel:  [wlan1] init sae_peer_hex64_fail_table 
+Dec  4 11:38:41 [WARN] kernel:  [wlan1] init sae_blacklist_table 
+Dec  4 11:38:41 [WARN] kernel:  ----->rtl8192cd_init_hw_PCI
+Dec  4 11:38:41 [WARN] kernel: [97F] RFE type 0 PHY paratemters: DEFAULT
+Dec  4 11:38:41 [WARN] kernel: clock 40MHz
+Dec  4 11:38:41 [WARN] kernel: AP-mode enabled...
+Dec  4 11:38:41 [WARN] kernel: RT_OP_MODE_AP...
+Dec  4 11:38:41 [WARN] kernel: load efuse ok
+Dec  4 11:38:41 [WARN] kernel: rom_progress: 0x200046f
+Dec  4 11:38:41 [WARN] kernel: [GetHwReg88XX][rtl8197Gfw]
+Dec  4 11:38:41 [WARN] kernel: [GetHwReg88XX][rtl8197Gfw size]
+Dec  4 11:38:41 [WARN] kernel: InitMACTRX OK
+Dec  4 11:38:41 [WARN] kernel: InitMACProtocolHandler OK
+Dec  4 11:38:41 [WARN] kernel: InitMACSchedulerHandler OK
+Dec  4 11:38:41 [WARN] kernel: InitMACWMACHandler OK
+Dec  4 11:38:41 [WARN] kernel: InitMACSysyemCfgHandler OK
+Dec  4 11:38:41 [WARN] kernel: InitMACFunctionHandler OK
+Dec  4 11:38:41 [WARN] kernel: [GetHwReg88XX][PHY_REG_PG_8197Gmp_Type0] size = 0x873 *((pu4Byte)(val))=0 
+Dec  4 11:38:41 [WARN] kernel: [GetHwReg88XX][PHY_REG_PG_8197Gmp_Type0 start ] 8070950c 
+Dec  4 11:38:41 [WARN] kernel: start_addr=(0x0), end_addr=(0x10000), buffer_size=(0x10000), smp_number_max=(8192)
+Dec  4 11:38:41 [WARN] kernel: rtl8192cd_init_hw_PCI----->
+Dec  4 11:38:41 [WARN] kernel: WiFi 2G LED gpio request error(-16)
+Dec  4 11:38:41 [WARN] kernel: rtl8192cd_open----->
+Dec  4 11:38:41 [INFO] kernel: br0: port 2(wlan1) entered forwarding state
+Dec  4 11:38:41 [INFO] kernel: br0: port 2(wlan1) entered forwarding state
+Dec  4 11:38:42 [WARN] kernel: ----->rtl8192cd_open
+Dec  4 11:38:43 [WARN] kernel: chip_version=0x2001,WlanSupportAbility = 0x3
+Dec  4 11:38:43 [WARN] kernel: invalid supproted rate, use default value [ff0]!
+Dec  4 11:38:43 [WARN] kernel: invalid basic rate, use default value [150]!
+Dec  4 11:38:43 [WARN] kernel: [wlan0] SAE INIT...
+Dec  4 11:38:43 [WARN] kernel: [wlan0] init sae_peer_table 
+Dec  4 11:38:43 [WARN] kernel:  [wlan0] init sae_peer_hex64_fail_table 
+Dec  4 11:38:43 [WARN] kernel:  [wlan0] init sae_blacklist_table 
+Dec  4 11:38:43 [WARN] kernel:  ----->rtl8192cd_init_hw_PCI
+Dec  4 11:38:43 [WARN] kernel: clock 40MHz
+Dec  4 11:38:43 [WARN] kernel: InitPON OK!!!
+Dec  4 11:38:43 [WARN] kernel: REG_HCI_MIX_CFG = 23 
+Dec  4 11:38:43 [WARN] kernel: InitMAC Page0 
+Dec  4 11:38:43 [WARN] kernel: >>SetBeaconDownload88XX
+Dec  4 11:38:43 [WARN] kernel: Init Download FW OK 
+Dec  4 11:38:43 [WARN] kernel: halmac_init_mac_cfg OK
+Dec  4 11:38:43 [WARN] kernel: halmac_cfg_rx_aggregation OK
+Dec  4 11:38:43 [WARN] kernel: halmac_init_mac_cfg OK
+Dec  4 11:38:43 [WARN] kernel: [GetHwReg88XX][size PHY_REG_PG_8812Fmp_Type0]
+Dec  4 11:38:43 [WARN] kernel: [GetHwReg88XX][PHY_REG_PG_8812Fmp_Type0]
+Dec  4 11:38:43 [WARN] kernel: start_addr=(0x20000), end_addr=(0x40000), buffer_size=(0x20000), smp_number_max=(16384)
+Dec  4 11:38:43 [WARN] kernel: [set_8812F_trx_regs] +++ 
+Dec  4 11:38:43 [WARN] kernel: rtl8192cd_init_hw_PCI----->
+Dec  4 11:38:43 [WARN] kernel: rtl8192cd_open----->
+Dec  4 11:38:43 [INFO] kernel: br0: port 3(wlan0) entered forwarding state
+Dec  4 11:38:43 [INFO] kernel: br0: port 3(wlan0) entered forwarding state
+Dec  4 11:38:43 [INFO] kernel: device wlan1 left promiscuous mode
+Dec  4 11:38:43 [INFO] kernel: br0: port 2(wlan1) entered disabled state
+Dec  4 11:38:43 [INFO] kernel: device wlan1 entered promiscuous mode
+Dec  4 11:38:43 [INFO] kernel: br0: port 2(wlan1) entered forwarding state
+Dec  4 11:38:43 [INFO] kernel: br0: port 2(wlan1) entered forwarding state
+Dec  4 11:38:43 [INFO] kernel: device wlan0 left promiscuous mode
+Dec  4 11:38:43 [INFO] kernel: br0: port 3(wlan0) entered disabled state
+Dec  4 11:38:43 [INFO] kernel: device wlan0 entered promiscuous mode
+Dec  4 11:38:43 [INFO] kernel: br0: port 3(wlan0) entered forwarding state
+Dec  4 11:38:43 [INFO] kernel: br0: port 3(wlan0) entered forwarding state
+Dec  4 11:38:43 [WARN] kernel: [ACS][wlan0]: ch36:0 ch40:0 ch44:0 ch48:0 
+Dec  4 11:38:43 [WARN] kernel: [ACS2][wlan0]ch  36: ap_count: 1, score: 0xffffffff 80N:2680N:12
+Dec  4 11:38:43 [WARN] kernel: [ACS2][wlan0]ch  40: ap_count: 0, score: 0xffffffff 
+Dec  4 11:38:43 [WARN] kernel: [ACS2][wlan0]ch  44: ap_count: 1, score: 0xffffffff 80N:17
+Dec  4 11:38:43 [WARN] kernel: [ACS2][wlan0]ch  48: ap_count: 0, score: 0xffffffff 
+Dec  4 11:38:43 [WARN] kernel: [ACS2] !!!! Not found clean channel, use NHM/CLM algorithm
+Dec  4 11:38:43 [WARN] kernel: [ACS][wlan0]: Auto channel choose ch: 36, 2nd_offset: above
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 1: ap_count: 0, score: 0xffffffff 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 2: ap_count: 1, score: 0xffffffff N:44 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 3: ap_count: 1, score: 0xffffffff N:23 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 4: ap_count: 0, score: 0xffffffff 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 5: ap_count: 0, score: 0xffffffff N:11 N:6 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 6: ap_count: 1, score: 0xffffffff L:47 N:14 U:11 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 7: ap_count: 0, score: 0xffffffff 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 8: ap_count: 1, score: 0xffffffff N:31 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 9: ap_count: 0, score: 0xffffffff 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 10: ap_count: 0, score: 0xffffffff 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 11: ap_count: 1, score: 0xffffffff N:30 L:11 N:7 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 12: ap_count: 0, score: 0xffffffff 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]ch 13: ap_count: 1, score: 0xffffffff L:18 
+Dec  4 11:38:45 [WARN] kernel: !! Not found clean channel, use NHM algorithm
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_1: H<-[ 100   0   1   1   0   0   0   0   1   3  12  39]->L, score: 17741073
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_2: H<-[   0   0   7   4   2  22   7   3   5  19  45 125]->L, score: 186947
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_3: H<-[  10   4   3   0   2   4   0   4  14  22  39 125]->L, score: 2075147
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_4: H<-[  21  13  43  39   5   0   0   1  10   4  12  94]->L, score: 5601424
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_5: H<-[   9   0   0   0   6   4   4   3   7   6  10 154]->L, score: 1612003
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_6: H<-[   8   2   1   0   0   0   0   0   2   9  19 112]->L, score: 1555261
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_7: H<-[  10   0   2   5   1   0   0   1   6  12  18 151]->L, score: 1846384
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_8: H<-[   4   0   0   0   0   0   0   0   3   5  25 204]->L, score: 708993
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_9: H<-[  28  16  29  18   4   0   0   0   0   1  13 127]->L, score: 6602728
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_10: H<-[   1   0   1   2   6   0   4   4  16  16  20 159]->L, score: 225165
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_11: H<-[   0   0   0   0   0   3   6   3   9  21  26 156]->L, score: 4554
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_12: H<-[  18   0   8   8  10  15   5   8   7   8  19 128]->L, score: 3433712
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] nhm_cnt_13: H<-[  15   4   6   5   5   7  12  16   8   5  21 108]->L, score: 3064986
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]: ch1:17741073 ch2:186947 ch3:2075147 ch4:5601424 ch5:1612003 ch6:1555261 ch7:1846384 ch8:708993 ch9:6602728 ch10:225165 ch11:4554 ch12:4294967295 ch13:4294967295 
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] groupScore, ch 1,5: 19353076
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] groupScore, ch 2,6: 1742208
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] groupScore, ch 3,7: 3921531
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] groupScore, ch 4,8: 6310417
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] groupScore, ch 5,9: 8214731
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] groupScore, ch 6,10: 1780426
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1] groupScore, ch 7,11: 1850938
+Dec  4 11:38:45 [WARN] kernel: [ACS][wlan1]: Auto channel choose ch: 2, 2nd_offset: above
+Dec  4 11:38:45 [NOTE] igmpx[1529]: active route 239.255.255.250 changed source from 192.168.0.156 to 192.168.0.1
+Dec  4 11:38:45 [NOTE] igmpx[1529]: route 239.255.255.250 on upstream #0 activated with 192.168.0.1
+Dec  4 11:38:47 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:38:47 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:38:47 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:38:47 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:48 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:49 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:50 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:51 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:52 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:53 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 3C:FA:43:F1:4C:45
+Dec  4 11:38:55 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:38:55 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Dec  4 11:38:55 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:38:55 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:56 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:56 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:38:56 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:38:56 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:38:56 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:57 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:57 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:58 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:58 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:59 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:38:59 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:00 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:00 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:01 [WARN] kernel: [wlan0]: A STA is rejected by 802.1x daemon - 7C:FD:6B:57:29:F8
+Dec  4 11:39:01 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:02 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 3C:FA:43:F1:4C:45
+Dec  4 11:39:03 [ ERR] anweb[2430]: apply/apply.c:69: device mode = Router
+Dec  4 11:39:03 [ ERR] anweb[2430]: apply/apply.c:70: profile mode = Router
+Dec  4 11:39:03 [ ERR] anweb[2430]: apply/apply.c:71: need change mode = 0
+Dec  4 11:39:03 [INFO] CONFIG[2503]: Saving config - OK
+Dec  4 11:39:05 [WARN] DNSMASQ_SCRIPT[2537]: Too small arguments
+Dec  4 11:39:05 [WARN] kernel: [wlan1]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:39:05 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:05 [WARN] kernel: [wlan1]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:39:05 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:06 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:39:06 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:06 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:39:06 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:06 [WARN] kernel: [wlan1]: A wireless client is deauthenticated - 7C:FD:6B:57:29:F8
+Dec  4 11:39:06 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:39:06 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:06 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:39:06 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:06 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:07 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:07 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:08 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:08 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:09 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:09 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:10 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:10 [WARN] kernel: [wlan1]: A wireless client is disassociated - 4C:D5:77:35:44:1D
+Dec  4 11:39:11 [WARN] kernel: [wlan0]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:39:11 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:11 [WARN] kernel: [wlan0]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:39:11 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:11 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:12 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:12 [WARN] kernel: [wlan0]: A STA is rejected by 802.1x daemon - 7C:FD:6B:57:29:F8
+Dec  4 11:39:13 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:14 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:15 [INFO] igmpx[1529]: route 239.255.255.250: all (1 item(s)) down VIF(s) NOT reported. Delete expired route.
+Dec  4 11:39:15 [NOTE] igmpx[1529]: removed route 239.255.255.250 on upstream #0 from origin 192.168.0.1
+Dec  4 11:39:15 [INFO] update_IGMPX[2546]: [LEAVE] Ifname: eth1
+Dec  4 11:39:15 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:16 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:16 [WARN] kernel: [wlan0]: A wireless client is disassociated - 4C:D5:77:35:44:1D
+Dec  4 11:39:22 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:39:22 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:22 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:39:22 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:23 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:24 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:25 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:26 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:28 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 7C:FD:6B:57:29:F8
+Dec  4 11:39:36 [WARN] kernel: [wlan1]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:39:36 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:36 [WARN] kernel: [wlan1]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:39:36 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:37 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:38 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:38 [WARN] kernel: [wlan1]: A wireless client is disassociated - 4C:D5:77:35:44:1D
+Dec  4 11:39:39 [WARN] kernel: [wlan0]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:39:39 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:39 [WARN] kernel: [wlan0]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:39:39 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:40 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:41 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:42 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:42 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Dec  4 11:39:42 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:42 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Dec  4 11:39:42 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:43 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:43 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:44 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:44 [WARN] kernel: [wlan0]: A wireless client is disassociated - 4C:D5:77:35:44:1D
+Dec  4 11:39:44 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:39:44 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:44 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:39:44 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:44 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:45 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:45 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:46 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:47 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:47 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:39:47 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:47 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:39:47 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:47 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:48 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:48 [WARN] kernel: [wlan0]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:39:48 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:48 [WARN] kernel: [wlan0]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:39:48 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:48 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:48 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 86:96:6E:98:B7:7B
+Dec  4 11:39:49 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:49 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:49 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:50 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:50 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:50 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 3C:FA:43:F1:4C:45
+Dec  4 11:39:51 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:51 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:52 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:52 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:53 [WARN] kernel: [wlan0]: A STA is rejected by 802.1x daemon - 7C:FD:6B:57:29:F8
+Dec  4 11:39:53 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:53 [WARN] kernel: [wlan0]: A wireless client is disassociated - 4C:D5:77:35:44:1D
+Dec  4 11:39:55 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:39:55 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:39:55 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:39:55 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:56 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:57 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:58 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:39:59 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:00 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:01 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 3C:FA:43:F1:4C:45
+Dec  4 11:40:04 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:40:04 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:40:04 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:40:04 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:04 [WARN] kernel: [wlan0]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:40:04 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Dec  4 11:40:04 [WARN] kernel: [wlan0]: A wireless client is associated - 4C:D5:77:35:44:1D
+Dec  4 11:40:04 [WARN] kernel: [wlan0]: Open and authenticated
+Dec  4 11:40:05 [WARN] dnsmasq-dhcp[2539]: no address range available for DHCPv6 request via br0
+Dec  4 11:40:05 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:05 [INFO] igmpx[1529]: added membership for 239.255.255.250 on upstream #0 10.198.51.167
+Dec  4 11:40:05 [NOTE] igmpx[1529]: added new route 239.255.255.250: 10.198.51.167 -> 192.168.0.1
+Dec  4 11:40:05 [INFO] update_IGMPX[2552]: [JOIN] Ifname: eth1  Group: 239.255.255.250
+Dec  4 11:40:05 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:40:05 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:40:05 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:40:05 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:05 [INFO] igmpx[1529]: leave group 224.0.0.252 from 192.168.0.156
+Dec  4 11:40:06 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:06 [WARN] dnsmasq-dhcp[2539]: no address range available for DHCPv6 request via br0
+Dec  4 11:40:06 [INFO] igmpx[1529]: leave group 224.0.0.252 from 192.168.0.156
+Dec  4 11:40:06 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:07 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:07 [WARN] dnsmasq-dhcp[2539]: no address range available for DHCPv6 request via br0
+Dec  4 11:40:07 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:07 [WARN] kernel: [wlan1]: A wireless client is deauthenticated - 7C:FD:6B:57:29:F8
+Dec  4 11:40:07 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:40:07 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Dec  4 11:40:07 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:40:07 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:08 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:08 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:09 [WARN] dnsmasq-dhcp[2539]: no address range available for DHCPv6 request via br0
+Dec  4 11:40:09 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:09 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:10 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:10 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:11 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 3C:FA:43:F1:4C:45
+Dec  4 11:40:11 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:12 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:13 [WARN] dnsmasq-dhcp[2539]: no address range available for DHCPv6 request via br0
+Dec  4 11:40:13 [WARN] kernel: [wlan0]: A STA is rejected by 802.1x daemon - 7C:FD:6B:57:29:F8
+Dec  4 11:40:15 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:40:15 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:40:15 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:40:15 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:16 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:17 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:18 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:19 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:20 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:21 [WARN] dnsmasq-dhcp[2539]: no address range available for DHCPv6 request via br0
+Dec  4 11:40:21 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 3C:FA:43:F1:4C:45
+Dec  4 11:40:24 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:40:24 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:40:24 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:40:24 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:25 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:26 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:26 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:40:26 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:40:26 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:40:26 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:27 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:27 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:28 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:28 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:29 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:29 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:30 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 7C:FD:6B:57:29:F8
+Dec  4 11:40:30 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:31 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:32 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 3C:FA:43:F1:4C:45
+Dec  4 11:40:35 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:40:35 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:40:35 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:40:35 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:36 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:37 [WARN] dnsmasq-dhcp[2539]: no address range available for DHCPv6 request via br0
+Dec  4 11:40:37 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:38 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:39 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:40:39 [WARN] kernel: [wlan1]: A wireless client is disassociated - 3C:FA:43:F1:4C:45
+Dec  4 11:40:56 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:40:56 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:40:56 [WARN] kernel: [wlan1]: A wireless client is associated - 3C:FA:43:F1:4C:45
+Dec  4 11:40:56 [WARN] kernel: [wlan1]: Open and authenticated
+Dec  4 11:41:09 [WARN] dnsmasq-dhcp[2539]: no address range available for DHCPv6 request via br0
+Dec  4 11:41:17 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:17 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:41:17 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:17 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:17 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:18 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:19 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:21 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:21 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:22 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:25 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:25 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:41:25 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:25 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:26 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:27 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:28 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:29 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:30 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:31 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:32 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:32 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:41:32 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:32 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:33 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:34 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:35 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:36 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:37 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:38 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:40 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:40 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:41:40 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:40 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:41 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:42 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:43 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:44 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:45 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:46 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:48 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:48 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:41:48 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:48 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:49 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:50 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:51 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:52 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:53 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:54 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:56 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:56 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:41:56 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Dec  4 11:41:56 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:57 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:58 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:41:59 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:42:00 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:42:01 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:42:02 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Dec  4 11:42:10 [NOTE] igmpx[1529]: route 239.255.255.250 on upstream #0 activated with 192.168.0.1
+Dec  4 11:42:13 [NOTE] AUTH[859]: Attempt to proceed a RPC with invalid token: fc5d41b7-9a8c-4e05-9cd7-f2fe9ccfb43a
+Dec  4 11:43:44 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:43:44 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:43:44 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:43:44 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:45 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:46 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:47 [WARN] kernel: [wlan1]: A wireless client is deauthenticated - 7C:FD:6B:57:29:F8
+Dec  4 11:43:47 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:43:47 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Dec  4 11:43:47 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:43:47 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:48 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:49 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:50 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:51 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:52 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:53 [WARN] kernel: [wlan0]: A STA is rejected by 802.1x daemon - 7C:FD:6B:57:29:F8
+Dec  4 11:43:54 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:43:54 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Dec  4 11:43:54 [WARN] kernel: [wlan1]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:43:55 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:55 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:56 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:57 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:58 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Dec  4 11:43:59 [WARN] kernel: [wlan1]: A wireless client is deauthenticated - 7C:FD:6B:57:29:F8
+Dec  4 11:43:59 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:43:59 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Dec  4 11:43:59 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Dec  4 11:43:59 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Dec  4 11:44:00 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Sep  2 19:13:35 [NOTE] NTP[2729]: The system time is synchronized: [2022/09/02 19:13:35]
+Sep  2 19:13:35 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Sep  2 19:13:36 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Sep  2 19:13:38 [WARN] kernel: [wlan0]: Authentication failled! (4-2: MIC error)
+Sep  2 19:13:39 [WARN] kernel: [wlan0]: A STA is rejected by 802.1x daemon - 7C:FD:6B:57:29:F8
+Sep  2 19:13:54 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Sep  2 19:13:54 [WARN] kernel: [wlan0]: WPA2-AES PSK authentication in progress...
+Sep  2 19:13:54 [WARN] kernel: [wlan0]: A wireless client is associated - 7C:FD:6B:57:29:F8
+Sep  2 19:13:54 [WARN] kernel: [wlan0]: Open and authenticated
+Sep  2 19:13:59 [INFO] igmpx[1529]: route 239.255.255.250: all (1 item(s)) down VIF(s) NOT reported. Delete expired route.
+Sep  2 19:13:59 [NOTE] igmpx[1529]: removed route 239.255.255.250 on upstream #0 from origin 192.168.0.1
+Sep  2 19:13:59 [INFO] update_IGMPX[2874]: [LEAVE] Ifname: eth1
+Sep  2 19:16:48 [NOTE] AUTH[859]: Attempt to proceed a RPC with invalid token: 44009ca0-05a8-453f-a094-39a0b6af25d7
+Sep  2 19:16:48 [NOTE] AUTH[859]: Attempt to proceed a RPC with invalid token: 44009ca0-05a8-453f-a094-39a0b6af25d7
+Sep  2 19:16:57 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:16:57 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:16:57 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:16:57 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:16:58 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:16:59 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:00 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:01 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:02 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:03 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:07 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:07 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:17:07 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:07 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:08 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:09 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:10 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:11 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:12 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:13 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:15 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:15 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:17:15 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:15 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:16 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:16 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:17 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:18 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:19 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:20 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:22 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:22 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:17:22 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:22 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:23 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:24 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Sep  2 19:17:24 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:17:24 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Sep  2 19:17:24 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:25 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Sep  2 19:17:25 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:17:25 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Sep  2 19:17:25 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:25 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:26 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:26 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:27 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:27 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:28 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:28 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:30 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:30 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:17:30 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:30 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:31 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 86:96:6E:98:B7:7B
+Sep  2 19:17:31 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:32 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:33 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:34 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:35 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:36 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:38 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:38 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:17:38 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:38 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:39 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:40 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:41 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:42 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:43 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:44 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Sep  2 19:17:46 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Sep  2 19:17:46 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:17:46 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Sep  2 19:17:46 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:47 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:48 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:50 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:17:52 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 86:96:6E:98:B7:7B
+Sep  2 19:18:07 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:18:07 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:18:07 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:18:07 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:07 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Sep  2 19:18:07 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:18:07 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Sep  2 19:18:07 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:08 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:08 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:09 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:09 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:10 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:10 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:11 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:11 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:12 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:12 [WARN] kernel: [wlan1]: Authentication failled! (4-2: MIC error)
+Sep  2 19:18:13 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 9A:DE:A2:7D:F4:E8
+Sep  2 19:18:13 [WARN] kernel: [wlan1]: A STA is rejected by 802.1x daemon - 86:96:6E:98:B7:7B
+Sep  2 19:18:55 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:18:55 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:18:55 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:DE:A2:7D:F4:E8
+Sep  2 19:18:55 [WARN] kernel: [wlan1]: Open and authenticated
+Sep  2 19:19:03 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Sep  2 19:19:03 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:19:03 [WARN] kernel: [wlan1]: A wireless client is associated - 86:96:6E:98:B7:7B
+Sep  2 19:19:04 [WARN] kernel: [wlan1]: Open and authenticated
+Sep  2 19:19:05 [WARN] kernel: eth ext Tx:can not find dst  ext  port device!
+Sep  2 19:19:06 [WARN] kernel: eth ext Tx:can not find dst  ext  port device!
+Sep  2 19:19:06 [WARN] kernel: eth ext Tx:can not find dst  ext  port device!
+Sep  2 19:19:06 [WARN] kernel: eth ext Tx:can not find dst  ext  port device!
+Sep  2 19:19:06 [WARN] kernel: eth ext Tx:can not find dst  ext  port device!
+Sep  2 19:19:06 [WARN] kernel: eth ext Tx:can not find dst  ext  port device!
+Sep  2 19:19:06 [WARN] kernel: eth ext Tx:can not find dst  ext  port device!
+Sep  2 19:19:06 [WARN] kernel: eth ext Tx:can not find dst  ext  port device!
+Sep  2 19:19:06 [WARN] kernel: eth ext Tx:can not find dst  ext  port device!
+Sep  2 19:19:06 [WARN] kernel: eth ext Tx:can not find dst  ext  port device!
+Sep  2 19:19:06 [INFO] rlx_wifi[539]: restart all settings for Radio.1
+Sep  2 19:19:06 [WARN] kernel: ----->rtl8192cd_close
+Sep  2 19:19:06 [WARN] kernel: rtl8192cd_close----->
+Sep  2 19:19:06 [INFO] kernel: br0: port 2(wlan1) entered disabled state
+Sep  2 19:19:06 [INFO] set_driver_channels[539]: set for IN (2.4 GHz): 2g channels 1:2:3:4:5:6:7:8:9:10:11:12:13:
+Sep  2 19:19:06 [INFO] get_power_lmt_array_8197G[539]: use custom power limit table Tenda_825I
+Sep  2 19:19:06 [INFO] set_pwr_limit[539]: [wlan1] disable (IN)
+Sep  2 19:19:07 [WARN] kernel: ----->rtl8192cd_open
+Sep  2 19:19:08 [INFO] CONFIG[539]: Saving config - OK
+Sep  2 19:19:08 [WARN] kernel: chip_version=0x100f,WlanSupportAbility = 0x2
+Sep  2 19:19:08 [WARN] kernel: PrepareRXBD88XX_V1 134 
+Sep  2 19:19:08 [WARN] kernel: test 0x871d2c00,0x30,0x71d2e80,0x0, 
+Sep  2 19:19:08 [WARN] kernel: test 0x871d2c80,0x30,0x71d2ec0,0x0, 
+Sep  2 19:19:08 [WARN] kernel: test 0x871d2d00,0x30,0x71d2f00,0x0, 
+Sep  2 19:19:08 [WARN] kernel: test 0x871d2d80,0x30,0x71d2f40,0x0, 
+Sep  2 19:19:08 [WARN] kernel: test 0x871d2e00,0x30,0x71d2f80,0x0, 
+Sep  2 19:19:08 [WARN] kernel: invalid supproted rate, use default value [fff]!
+Sep  2 19:19:08 [WARN] kernel: invalid basic rate, use default value [f]!
+Sep  2 19:19:08 [WARN] kernel: [wlan1] SAE INIT...
+Sep  2 19:19:08 [WARN] kernel: [wlan1] init sae_peer_table 
+Sep  2 19:19:08 [WARN] kernel:  [wlan1] init sae_peer_hex64_fail_table 
+Sep  2 19:19:08 [WARN] kernel:  [wlan1] init sae_blacklist_table 
+Sep  2 19:19:08 [WARN] kernel:  ----->rtl8192cd_init_hw_PCI
+Sep  2 19:19:08 [WARN] kernel: [97F] RFE type 0 PHY paratemters: DEFAULT
+Sep  2 19:19:08 [WARN] kernel: clock 40MHz
+Sep  2 19:19:08 [WARN] kernel: AP-mode enabled...
+Sep  2 19:19:08 [WARN] kernel: RT_OP_MODE_AP...
+Sep  2 19:19:08 [WARN] kernel: load efuse ok
+Sep  2 19:19:08 [WARN] kernel: rom_progress: 0x200046f
+Sep  2 19:19:08 [WARN] kernel: [GetHwReg88XX][rtl8197Gfw]
+Sep  2 19:19:08 [WARN] kernel: [GetHwReg88XX][rtl8197Gfw size]
+Sep  2 19:19:08 [WARN] kernel: InitMACTRX OK
+Sep  2 19:19:08 [WARN] kernel: InitMACProtocolHandler OK
+Sep  2 19:19:08 [WARN] kernel: InitMACSchedulerHandler OK
+Sep  2 19:19:08 [WARN] kernel: InitMACWMACHandler OK
+Sep  2 19:19:08 [WARN] kernel: InitMACSysyemCfgHandler OK
+Sep  2 19:19:08 [WARN] kernel: InitMACFunctionHandler OK
+Sep  2 19:19:08 [WARN] kernel: [GetHwReg88XX][PHY_REG_PG_8197Gmp_Type0] size = 0x873 *((pu4Byte)(val))=0 
+Sep  2 19:19:08 [WARN] kernel: [GetHwReg88XX][PHY_REG_PG_8197Gmp_Type0 start ] 8070950c 
+Sep  2 19:19:08 [WARN] kernel: start_addr=(0x0), end_addr=(0x10000), buffer_size=(0x10000), smp_number_max=(8192)
+Sep  2 19:19:08 [WARN] kernel: rtl8192cd_init_hw_PCI----->
+Sep  2 19:19:08 [WARN] kernel: WiFi 2G LED gpio request error(-16)
+Sep  2 19:19:08 [WARN] kernel: rtl8192cd_open----->
+Sep  2 19:19:08 [INFO] kernel: br0: port 2(wlan1) entered forwarding state
+Sep  2 19:19:08 [INFO] kernel: br0: port 2(wlan1) entered forwarding state
+Sep  2 19:19:08 [INFO] kernel: device wlan1 left promiscuous mode
+Sep  2 19:19:08 [INFO] kernel: br0: port 2(wlan1) entered disabled state
+Sep  2 19:19:08 [INFO] kernel: device wlan1 entered promiscuous mode
+Sep  2 19:19:08 [INFO] kernel: br0: port 2(wlan1) entered forwarding state
+Sep  2 19:19:08 [INFO] kernel: br0: port 2(wlan1) entered forwarding state
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 1: ap_count: 2, score: 0xffffffff U:23 N:17 N:14 N:6 N:5 U:4 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 2: ap_count: 1, score: 0xffffffff N:32 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 3: ap_count: 1, score: 0xffffffff N:22 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 4: ap_count: 0, score: 0xffffffff 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 5: ap_count: 0, score: 0xffffffff N:11 N:7 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 6: ap_count: 1, score: 0xffffffff L:46 N:15 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 7: ap_count: 0, score: 0xffffffff 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 8: ap_count: 1, score: 0xffffffff N:29 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 9: ap_count: 0, score: 0xffffffff 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 10: ap_count: 0, score: 0xffffffff N:7 N:5 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 11: ap_count: 1, score: 0xffffffff N:31 L:7 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 12: ap_count: 0, score: 0xffffffff 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]ch 13: ap_count: 1, score: 0xffffffff L:18 
+Sep  2 19:19:10 [WARN] kernel: !! Not found clean channel, use NHM algorithm
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_1: H<-[   5   0   1   0   0   0   5   2   0   0   6 156]->L, score: 906969
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_2: H<-[   0   0   1   5   1   6   4   6  19  24  24 128]->L, score: 61436
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_3: H<-[  22   2   1   1   0   0   0   3   4  10  24 161]->L, score: 4042250
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_4: H<-[  19  10  11   0   0   0   0   0   2  18  36 144]->L, score: 4173264
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_5: H<-[   1   0   1   1   0   7   0   8  13   6  21 178]->L, score: 209788
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_6: H<-[   1   8  15  18   4   0   0   0   2   9  22 130]->L, score: 1071961
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_7: H<-[   2   2  11  10   2   0   1   2   5   6  24 173]->L, score: 759728
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_8: H<-[  28  27  60  38   5   0   0   0   0   0   6  79]->L, score: 7995769
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_9: H<-[  10  25  39  22   2   0   0   1   7  19  37  78]->L, score: 4164678
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_10: H<-[   9  11   7   1   5   1   2   3  21  49  63  61]->L, score: 2401855
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_11: H<-[   5   0   0   0   0   0   1   0   1  11  37 119]->L, score: 886334
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_12: H<-[   2   8   9   6   1   2   2   0   1  11  41 151]->L, score: 1047730
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] nhm_cnt_13: H<-[  11  25  35   5   0   0   0   0   0   6  25 130]->L, score: 4146811
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]: ch1:906969 ch2:61436 ch3:4042250 ch4:4173264 ch5:209788 ch6:1071961 ch7:759728 ch8:7995769 ch9:4164678 ch10:2401855 ch11:886334 ch12:4294967295 ch13:4294967295 
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] groupScore, ch 1,5: 1116757
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] groupScore, ch 2,6: 1133397
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] groupScore, ch 3,7: 4801978
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] groupScore, ch 4,8: 12169033
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] groupScore, ch 5,9: 4374466
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] groupScore, ch 6,10: 3473816
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1] groupScore, ch 7,11: 1646062
+Sep  2 19:19:10 [WARN] kernel: [ACS][wlan1]: Auto channel choose ch: 5, 2nd_offset: below
+Sep  2 19:19:11 [INFO] igmpx[1529]: leave group 224.0.0.251 from 192.168.0.184
+Sep  2 19:19:21 [WARN] kernel: [wlan1]: A wireless client is associated - 56:6C:67:96:FD:11
+Sep  2 19:19:21 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:19:21 [WARN] kernel: [wlan1]: A wireless client is associated - 56:6C:67:96:FD:11
+Sep  2 19:19:21 [WARN] kernel: [wlan1]: Open and authenticated
+Sep  2 19:19:38 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:38:E1:91:14:2C
+Sep  2 19:19:38 [WARN] kernel: [wlan1]: WPA2-AES PSK authentication in progress...
+Sep  2 19:19:38 [WARN] kernel: [wlan1]: A wireless client is associated - 9A:38:E1:91:14:2C
+Sep  2 19:19:38 [WARN] kernel: [wlan1]: Open and authenticated
+Sep  2 19:19:45 [WARN] kernel: [wlan1]: A wireless client is deauthenticated - 56:6C:67:96:FD:11
+Sep  2 19:19:49 [INFO] igmpx[1529]: leave group 224.0.0.251 from 192.168.0.184
+Sep  2 19:19:55 [WARN] kernel: [wlan1]: A wireless client is deauthenticated - 9A:38:E1:91:14:2C
+Sep  2 19:21:51 [NOTE] AUTH[859]: Attempt to proceed a RPC with invalid token: 36287646-f709-451e-b598-579141fa42cd
+Sep  2 19:21:51 [NOTE] AUTH[859]: Attempt to proceed a RPC with invalid token: 36287646-f709-451e-b598-579141fa42cd
+Sep  2 19:21:33
